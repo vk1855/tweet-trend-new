@@ -7,7 +7,7 @@ pipeline {
     }
 
     stages {
-        stage('Clone-code') {
+        stage('clone-code') {
             steps {
                 git branch: 'main', url: 'https://github.com/vk1855/tweet-trend-new.git'
             }
